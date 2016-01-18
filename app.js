@@ -2,7 +2,6 @@ var App = Ember.Application.create({
 
 })
 
-
 App.Rider = Ember.Object.extend({
   RiderRank: null,
 

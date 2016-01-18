@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.6",
-    "ember": "~2.3.0"
+    "ember": "~2.3.0",
+    "ember-data": "~2.3.1"
   }
 }

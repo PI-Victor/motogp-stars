@@ -2,35 +2,25 @@ var App = Ember.Application.create({
 
 })
 
-App.Rider = Ember.Object.extend({
-  RiderRank: null,
-
-  getRiderRank: function() {
-    return this.get('RiderRank')
-  }.property('RiderRank')
+App.Store = DS.Store.extend({
+  adapter: 'DS.FixtureAdapter'
 })
 
-App.RideEvents = Ember.Object.extend({
-  EventName: null,
+App.ApplicationAdapter = DS.FixtureAdapter.extend()
 
-  getEventInfo: function() {
-    return this.get('eventname')
-  }.property('EventName')
+App.Rider = DS.Model.extend({
+  RiderRank: DS.attr('int'),
+  RiderName: DS.attr('string')
 })
 
-App.MogoGPBike = Ember.Object.extend({
-  BikeName: null,
-
-  getBikeRank: function() {
-    return this.get('BikeName')
-  }.property('BikeName')
+App.RideEvents = DS.Model.extend({
+  EventName: DS.atr('string')
 })
 
+App.MogoGPBike = DS.Model.extend({
+  BikeName: DS.attr('string')
+})
 
-App.MotoGPCircuit = Ember.Object.extend({
-  Name: null,
-
-  getCircuitName: function(circuitName) {
-    return this.get('CircuitName')
-  }.property('CircuitName')
+App.MotoGPCircuit = DS.Model.extend({
+  Name: DS.attr('string')
 })

@@ -3,5 +3,6 @@
   "name": "Automotodrom Brno",
   "location": "Brno, Czech Republic",
   "date": "21 August",
-  "conditions": null
+  "conditions": null,
+  "laps": null
 }

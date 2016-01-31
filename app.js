@@ -1,8 +1,10 @@
 
+import riders from './config/riders'
+
 var App = Ember.Application.create({
   LOG_TRANSITIONS: true
 })
 
-Rider = Ember.Object.extend({
+App.Rider = Ember.Object.extend({
 
 })

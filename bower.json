@@ -25,6 +25,6 @@
   ],
   "dependencies": {
     "ember": "~2.3.0",
-    "basscss": "~7.1.0"
+    "bootstrap": "~3.3.6"
   }
 }

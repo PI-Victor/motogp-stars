@@ -1,0 +1,38 @@
+{
+  "name": "motogp-allstars",
+  "version": "0.0.0",
+  "description": "MotoGP text based game",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "bower install && npm run-script build",
+    "build": "browserify app.js -t babelify --outfile out/transpiled.js",
+    "start": "live-server",
+    "watch": "watchify app.js -t babelify --outfile out/transpiled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PI-Victor/motogp-allstars.git"
+  },
+  "keywords": [
+    "motogp",
+    "js",
+    "text-based-game"
+  ],
+  "author": "PI-Victor",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/PI-Victor/motogp-allstars/issues"
+  },
+  "devDependencies": {
+    "browserify": "~13.0.0",
+    "babelify": "~7.2.0",
+    "live-server": "~0.9.1",
+    "babel-preset-es2015": "~6.3.13",
+    "watchify": "~3.7.0"
+  },
+  "dependencies": {
+    "bower": "~1.7.7"
+  }
+}

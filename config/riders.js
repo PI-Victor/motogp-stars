@@ -1,6 +1,4 @@
-var riders = []
-
-riders = [
+export var riders = [
   {
     team_index: 6,
     rank: 7.7,
@@ -150,11 +148,4 @@ riders = [
     champion: false,
     injured: false
   }
-
-
-
-
-
-
-
 ]

@@ -1,5 +1,5 @@
 {
-  "name": "MotoGP All Stars",
+  "name": "MotoGP Stars",
   "authors": [
     "Victor Palade"
   ],
@@ -14,7 +14,7 @@
     "game"
   ],
   "license": "Apache V2.0",
-  "homepage": "https://motogp-allstars.thecodeflavour.org",
+  "homepage": "https://pi-victor.github.io/motogp-stars",
   "private": true,
   "ignore": [
     "**/.*",
@@ -23,8 +23,4 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "ember": "~2.3.0",
-    "basscss": "~7.1.0"
-  }
 }

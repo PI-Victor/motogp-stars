@@ -1,4 +1,4 @@
-MotoGP All Stars
+MotoGP Stars
 ----
 A text based motorcycle racing game inspired by the upcoming 2016 MotoGP season.    
 
